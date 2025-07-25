@@ -1,5 +1,6 @@
 "use client";
 
+import Image from 'next/image';
 import Link from 'next/link';
 
 const AppNavbar = () => {
@@ -7,7 +8,9 @@ const AppNavbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark sticky-top navbar-custom">
       <div className="container">
         <Link href="/" legacyBehavior>
-          <a className="navbar-brand fw-bold">JOKIIN-AJA</a>
+          <a className="navbar-brand fw-bold">
+            <Image src="/logo.svg" alt="Jokiin Aja Logo" width={150} height={40} />
+          </a>
         </Link>
         <button
           className="navbar-toggler"
@@ -27,7 +30,7 @@ const AppNavbar = () => {
             <Link href="/how-to-order" legacyBehavior><a className="nav-link mx-2">Cara Pesan</a></Link>
             <Link href="/contact" legacyBehavior><a className="nav-link mx-2">Kontak</a></Link>
             <Link href="/how-to-order" legacyBehavior>
-              <a className="btn btn-custom ms-2">Pesan Sekarang</a>
+              <a href="https://wa.me/62882020878741" className="btn btn-custom ms-2" target="_blank" rel="noopener noreferrer">Pesan Sekarang</a>
             </Link>
           </div>
         </div>

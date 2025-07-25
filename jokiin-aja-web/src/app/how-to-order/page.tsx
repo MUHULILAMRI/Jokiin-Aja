@@ -83,9 +83,9 @@ const HowToOrderPage = () => {
                 </Form.Group>
 
                 <div className="d-grid mt-4">
-                    <Button type="submit" size="lg" className="btn-custom">
-                        Kirim Pesanan
-                    </Button>
+                    <a href="https://wa.me/62882020878741" className="btn btn-custom py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft" target="_blank" rel="noopener noreferrer">
+    Kirim Pesanan
+</a>
                 </div>
               </Form>
             </Card.Body>

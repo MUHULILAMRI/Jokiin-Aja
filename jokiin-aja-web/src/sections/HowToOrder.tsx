@@ -64,7 +64,7 @@ const HowToOrder = () => {
       </div>
       <div className="text-center mt-4">
         <Link href="/how-to-order" passHref legacyBehavior>
-          <a className="btn btn-lg btn-custom">Pesan Sekarang Juga</a>
+          <a href="https://wa.me/62882020878741" className="btn btn-lg btn-custom" target="_blank" rel="noopener noreferrer">Pesan Sekarang Juga</a>
         </Link>
       </div>
     </div>

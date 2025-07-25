@@ -43,9 +43,9 @@ const Hero = () => {
             </motion.p>
             <motion.div variants={itemVariants}>
               <Link href="/how-to-order" passHref legacyBehavior>
-                <a className="btn btn-lg btn-custom">
-                  Pesan Jasa Sekarang
-                </a>
+                <a href="https://wa.me/62882020878741" className="btn btn-custom py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft" target="_blank" rel="noopener noreferrer">
+    Pesan Jasa Sekarang
+</a>
               </Link>
             </motion.div>
           </div>
